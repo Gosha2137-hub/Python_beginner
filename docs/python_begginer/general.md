@@ -88,4 +88,22 @@ gdzie zmienna engraving jest typu string, a solid_gold przyjmuje typ boolean
 |>=     | greater than or equal to|
 
 ### Conditional Statements
-  * ***if...elif...else***
+  * ***if statement :
+    ...elif...
+    else :***
+
+## Lists
+  * To create a list use square brackets [,]
+  * You can gest an item at a specified position, chech the number of items, add, romove items
+  ### Familiarised functions
+  1. ***len(name)***
+  2. indexing : begine with 0 - list[0]
+  3. Slicing : to pull the first x entries, you use [:x], and to pull the last y entries, you use [-y:]
+  4. ***namelist.remove(element)***
+  5. ***min() ,max()***
+  6. ***sum()***
+  7. adding items ***namelist.append(item)***
+  8. turning string into a list ***stringname.split(here put the mark that separates two elements)***
+
+Remember that when we add booleans, it returns the total number of entries in the sum that are True
+    
