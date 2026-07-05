@@ -14,12 +14,17 @@ General arithemetic operators
 |Multiplication|*              |
 |Division      |/              |
 |Exponent      |**             |
+|Floor division| //            |
+|Modulus       | %             |
+|Negation      | -             |
 
 Order of operations : PEMDAS rule 
   1. Parentheses first
   2. Exponents
   3. Multiplications and Division : read from left to right
   4. Addition and Substraction : read from left to right
+  5. Floor division : division without fractional parts - always gives int result
+  6. Normal division the outcome is always float type
 
 ## Comments
 "#" in the beginining of phrase
@@ -30,6 +35,15 @@ Rules:
   3. They have to start with letter or undercsore
 By assinging a variable - we assing it globally
 
+* **Swapping variables :**
+  ```python
+  tmp = a
+  a =b
+  b = tmp
+  ```
+  diffrent approach
+  ```python
+  a, b = b, a
 ## Functions
 Every function is composed of two pieces
   1. Header - Remember, the header of a function ends with ":"
@@ -43,6 +57,7 @@ Every function is composed of two pieces
 * Use lowercase letters when naming a function
 * Variable created inside a function Body can't be accesed outside the function
 * ***math.ceil(variable)*** zaokrąglanie w górę
+* ***abs()*** returns absolute value of an argument
 
 ## Data Types
   |data type  | expample   |
