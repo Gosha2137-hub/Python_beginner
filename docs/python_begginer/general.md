@@ -62,6 +62,7 @@ Every function is composed of two pieces
 * if function doesn't have **return** keyword at the end the result of calling them is the spetial value **None** (similar to null)
 * in ***print(stirng, sep=' ')*** parameter **sep** allows to put some spetial string in between our printed arguments
 * in ***max(... , key=function)*** by default returns the lagest of its arguments. But if we pass in a function using the optional **key** argument, it returns the argument x that maximizes key(x)
+*  ***round(... ,ndigits = )*** , when ndigits = -1 it rounds to the nearest 10, when -2 it rounds to nearest 100 and so on... 
 ## Data Types
   |data type  | expample   |
   |:---------:|:----------:|
@@ -109,6 +110,21 @@ gdzie zmienna engraving jest typu string, a solid_gold przyjmuje typ boolean
   * ***if statement :
     ...elif...
     else :***
+
+### Boolean Values
+  * ***and*** is logical and operator
+  * ***or*** is logical or operator
+  * ***not*** is logical negation operator
+
+### Strange Cases
+  * Python has a ***bool()*** function which turns things into bools such as:
+    ```python
+    bool(1) #True
+    bool(0) #False
+    bool("not empty string") #True
+    bool("") #empty string - False
+
+    ```
 
 ## Lists
   * To create a list use square brackets [,]
