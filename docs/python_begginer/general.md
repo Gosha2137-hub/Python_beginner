@@ -129,15 +129,42 @@ gdzie zmienna engraving jest typu string, a solid_gold przyjmuje typ boolean
 ## Lists
   * To create a list use square brackets [,]
   * You can gest an item at a specified position, chech the number of items, add, romove items
+  * List are mutable, meaning they can be modified "in place"
   ### Familiarised functions
   1. ***len(name)***
   2. indexing : begine with 0 - list[0]
-  3. Slicing : to pull the first x entries, you use [:x], and to pull the last y entries, you use [-y:]
+  3. Slicing : to pull the first x entries, you use [:x], and to pull the last y entries, you use [-y:], another option : [a:b] as a and b are indexes
   4. ***namelist.remove(element)***
   5. ***min() ,max()***
   6. ***sum()***
   7. adding items ***namelist.append(item)***
   8. turning string into a list ***stringname.split(here put the mark that separates two elements)***
+  9. ***sorted(list)*** returns a sorted version of a list, if string - sorted in alphabethical order
 
 Remember that when we add booleans, it returns the total number of entries in the sum that are True
-    
+
+# Objects
+  1. Overall : objects carry some things around with them. **You access thet stuff using Python's dot syntax**
+  2. Function attached to an object is called **method**, non-function things called **attributes**
+  ## Examples
+  List as object has defined methods such as:
+    1. ***list.append()***
+    2. ***list.pop()*** - removes and returns the last element of a list
+    3. ***list.index(element)*** - returns index of searched element
+  
+  To find out wheather a list contains a particular value use **in** operator
+  ```python
+  #example
+    "3" in primes
+  ```
+# Tuples
+  1. The syntax for creating them uses parentheses instead of square brackets
+  2. They cannot be modified - immutable
+  3. used for functions that return multiple values
+```python
+#Example- swapping
+  a = 1
+b = 0
+a, b = b, a
+print(a, b)
+```
