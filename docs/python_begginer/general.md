@@ -1,5 +1,5 @@
 # Notes 
-Based on Kaggle Intro to Programming course
+Based on Kaggle Intro to Programming course and Python course
 ## Printing 
 ```python
 print(3)
@@ -58,7 +58,10 @@ Every function is composed of two pieces
 * Variable created inside a function Body can't be accesed outside the function
 * ***math.ceil(variable)*** zaokrąglanie w górę
 * ***abs()*** returns absolute value of an argument
-
+* ***help(function)*** build-in repository, with definining new functions we can write our own documentation that will be shown after calling help() function - the description called **docstring """** is a triple-quoted string thet comes immediately atfer the header of a function
+* if function doesn't have **return** keyword at the end the result of calling them is the spetial value **None** (similar to null)
+* in ***print(stirng, sep=' ')*** parameter **sep** allows to put some spetial string in between our printed arguments
+* in ***max(... , key=function)*** by default returns the lagest of its arguments. But if we pass in a function using the optional **key** argument, it returns the argument x that maximizes key(x)
 ## Data Types
   |data type  | expample   |
   |:---------:|:----------:|
