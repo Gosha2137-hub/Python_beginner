@@ -130,6 +130,7 @@ gdzie zmienna engraving jest typu string, a solid_gold przyjmuje typ boolean
   * To create a list use square brackets [,]
   * You can gest an item at a specified position, chech the number of items, add, romove items
   * List are mutable, meaning they can be modified "in place"
+  * List of list : list[x][y] 
   ### Familiarised functions
   1. ***len(name)***
   2. indexing : begine with 0 - list[0]
