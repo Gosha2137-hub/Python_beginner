@@ -17,5 +17,20 @@ Ogólna Klasyfikacja:
  ### Składowe szeregu czasowego  
  1. **Tendencja rozwojowa - trend** : Własność szeregu ujawniająca się poprzez systematyczne, jednokierunkowe zmiany (wzrost lub spadek) poziomu badanego zjawiska w długim okresie czasu. *W wypadku trendu na zjawisko oddziaływuje stale pewnien zbiór wyników nazywany przyczynami głównymi*
  2. **Wahania cykliczne/koniunkturalne - skłądowa cykliczna** : Długookresowe, falowe inaczej rytmiczne wahania wokół tendencji rozwojowej. Obserwowane są one w dłuższych od roku okresach i ich analiza wymaga długoletnich obserwacji.
- 3. **Wahania okresowe/sezonowe - składowa sezonowa** : Rytmiczne wahania wokół jego tendencji rozwojowej o określonym cyklu i okresie nie przekraczającym jednego roku. Rekrezentują efekty powtarzające się z pewną prawidłowością, co roku w tych samych okresach. Występują one często pod wpływem czynników przyrodnicznych lub kolendarza.
-    
+ 3. **Wahania okresowe/sezonowe - składowa sezonowa** : Rytmiczne wahania wokół jego tendencji rozwojowej o określonym cyklu i okresie nie przekraczającym jednego roku. Rekrezentują efekty powtarzające się z pewną prawidłowością, co roku w tych samych okresach. Występują one często pod wpływem czynników przyrodnicznych lub kalendarza.
+ 4. **Wahania przypadkowe** : nazywana składową przypadkową, co sugeruje zawieranie przypadkowych wahań szeregu wokół części systematycznej, które trudno jest zdefiniować.
+### Kryterium porównawcze
+Składowe szeregu czasowego połączone mogą być związkami  
+* **addytywnym** , wtedy dla sezonowości addytywnej mamy do czynienia z efektami sezonowymi polegajacymi na zaniżeniu lub zawyżeniu wartości zjawiska w okresach tego samego typu. *Wskaźnik addytywny jest dodawany do wartości trendu.*
+*  **multiplikatywnym** , wtedy dla sezonowości multiplikatywnej efekty sezonowe są w przybliżeniu stałe w ujęciu procentowym. *Wskaźnik multiplikatywny jest przemnażany przez wartość trendu*
+
+## Analiza Szeregów Czasowych  
+Celem analizy szeregó czasowych jest zbudowanie modelu pewnego zjawiska/procesu w oparciu o obserwowane zmiany w czasie pewnych mierzalnych wielkości opisujących ten proces.  
+Analiza szeregów czasowych obejmuje następujące zagadnienia:  
+1. **Analiza opisowa szeregu czasowego** : wyznaczanie średniej arytmetycznej, wariancji, odchylenia standardowego idt.
+2. **Porównanie poziomów zjawiska w czasie** : analiza dynakimi zjawisk z wykorzystaniem miar dynamiki
+3. **Dekompozycja szeregu czasowego** :
+ * **Wyodrębienie trendu** : ilustrującego działanie przyczyn głównych
+ *  **Wyodrębnienie wahań sezonowych** : polega na wyznaczaniu wskaźników sezonowości zwanych również wskaźnikami okresowości lub wskaźnikami wahań sezonowych.
+ *   **Wyodrębnienie wahań przypadkowych** : ilustrujących działania przyczyn przypadkowych, efekt ich odziaływania wyraża się za pomocą odchylenia standardowego reszt.  
+
