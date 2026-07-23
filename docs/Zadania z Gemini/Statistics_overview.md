@@ -51,6 +51,7 @@ Oba współczynniki przyjmują wartości z przedziału [-1,1]. Znak mówi o kier
 * Dla **Wartości dodatniej** : Korelacja dodatnia, zależność rosnąca.
 * Dla **Warości ujemnej** : Korelacja ujemna, zależność malejąca.
 * Dla **Wartości bliskiej zero** : Brak zależności, zmienne są od siebie niezależne.
+
 Z kolei dla wartości bezwzględnych z przedziałów:
 * 0.0-0.2 : Brak lub bardzo słaba zależność
 * 0.2-0.4 : Słaba korelacja
